@@ -172,7 +172,7 @@ a{text-decoration:none;color:inherit}
     <div class="nav-logo">FSCreative™</div>
     <div class="nav-r">
       <button class="mode-btn" id="modeBtn" aria-label="Toggle mode"><div class="mode-knob"></div></button>
-      <button class="nav-cta" id="navCta">Let's talk →</button>
+      <a href="https://wa.me/16208752217" target="_blank" class="nav-cta">Let's talk →</a>
     </div>
   </nav>
 </div>
@@ -574,9 +574,7 @@ a{text-decoration:none;color:inherit}
     if(isLight){root.classList.add('lm');document.body.classList.add('lm');}
     else{root.classList.remove('lm');document.body.classList.remove('lm');}
   });
-  document.getElementById('navCta').addEventListener('click', function(){
-    document.getElementById('contact').scrollIntoView({behavior:'smooth'});
-  });
+
 })();
 </script>
 
